@@ -7,21 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		729214E9D2D05A7F5B4B95F7 /* Pods_Workout_Agenda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264BD8857B00889F0CC15796 /* Pods_Workout_Agenda.framework */; };
+		F100C6C22094CF320068F239 /* WgerAbsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100C6C12094CF320068F239 /* WgerAbsViewController.swift */; };
+		F100C6C42094D0EE0068F239 /* WgerAbExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100C6C32094D0EE0068F239 /* WgerAbExerciseTableViewCell.swift */; };
+		F100C6C62094FEA50068F239 /* WgerLegsExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100C6C52094FEA50068F239 /* WgerLegsExerciseTableViewCell.swift */; };
+		F100C6C82094FECB0068F239 /* WgerLegsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100C6C72094FECB0068F239 /* WgerLegsViewController.swift */; };
+		F100E1C42090D692006E7D4F /* AgendaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100E1C32090D692006E7D4F /* AgendaViewController.swift */; };
+		F100E1CA209142E9006E7D4F /* AddAgendaItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100E1C9209142E9006E7D4F /* AddAgendaItemViewController.swift */; };
 		F13A96862088E6DD0072A6D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A96852088E6DD0072A6D4 /* AppDelegate.swift */; };
-		F13A96882088E6DD0072A6D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A96872088E6DD0072A6D4 /* ViewController.swift */; };
+		F13A96882088E6DD0072A6D4 /* ExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A96872088E6DD0072A6D4 /* ExercisesViewController.swift */; };
 		F13A968B2088E6DD0072A6D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13A96892088E6DD0072A6D4 /* Main.storyboard */; };
 		F13A968D2088E6E10072A6D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13A968C2088E6E10072A6D4 /* Assets.xcassets */; };
 		F13A96902088E6E10072A6D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13A968E2088E6E10072A6D4 /* LaunchScreen.storyboard */; };
+		F13A96982088E7180072A6D4 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A96972088E7180072A6D4 /* Exercise.swift */; };
+		F13A969A2088E85F0072A6D4 /* AgendaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A96992088E85F0072A6D4 /* AgendaItem.swift */; };
+		F13A969E208906DA0072A6D4 /* ExerciseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13A969D208906DA0072A6D4 /* ExerciseDetailViewController.swift */; };
+		F167AC1F2094054100D09FFF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F167AC1E2094054100D09FFF /* Alamofire.framework */; };
+		F167AC212094054600D09FFF /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F167AC202094054600D09FFF /* SwiftyJSON.framework */; };
+		F16DDAA720942700000BD86F /* WgerArmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DDAA620942700000BD86F /* WgerArmsViewController.swift */; };
+		F16DDAA920942815000BD86F /* WgerExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DDAA820942815000BD86F /* WgerExercise.swift */; };
+		F16DDAAB20942C15000BD86F /* WgerArmExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DDAAA20942C15000BD86F /* WgerArmExerciseTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		264BD8857B00889F0CC15796 /* Pods_Workout_Agenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Workout_Agenda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8933747906C508DE360F7FE /* Pods-Workout Agenda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workout Agenda.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Workout Agenda/Pods-Workout Agenda.debug.xcconfig"; sourceTree = "<group>"; };
+		C1022B7F1219D3FC5DB27DEB /* Pods-Workout Agenda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Workout Agenda.release.xcconfig"; path = "Pods/Target Support Files/Pods-Workout Agenda/Pods-Workout Agenda.release.xcconfig"; sourceTree = "<group>"; };
+		F100C6C12094CF320068F239 /* WgerAbsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WgerAbsViewController.swift; sourceTree = "<group>"; };
+		F100C6C32094D0EE0068F239 /* WgerAbExerciseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WgerAbExerciseTableViewCell.swift; sourceTree = "<group>"; };
+		F100C6C52094FEA50068F239 /* WgerLegsExerciseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WgerLegsExerciseTableViewCell.swift; sourceTree = "<group>"; };
+		F100C6C72094FECB0068F239 /* WgerLegsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WgerLegsViewController.swift; sourceTree = "<group>"; };
+		F100E1C32090D692006E7D4F /* AgendaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaViewController.swift; sourceTree = "<group>"; };
+		F100E1C9209142E9006E7D4F /* AddAgendaItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAgendaItemViewController.swift; sourceTree = "<group>"; };
 		F13A96822088E6DD0072A6D4 /* Workout Agenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Workout Agenda.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13A96852088E6DD0072A6D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F13A96872088E6DD0072A6D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F13A96872088E6DD0072A6D4 /* ExercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesViewController.swift; sourceTree = "<group>"; };
 		F13A968A2088E6DD0072A6D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F13A968C2088E6E10072A6D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F13A968F2088E6E10072A6D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F13A96912088E6E10072A6D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F13A96972088E7180072A6D4 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		F13A96992088E85F0072A6D4 /* AgendaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaItem.swift; sourceTree = "<group>"; };
+		F13A969D208906DA0072A6D4 /* ExerciseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailViewController.swift; sourceTree = "<group>"; };
+		F167AC1E2094054100D09FFF /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F167AC202094054600D09FFF /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16DDAA620942700000BD86F /* WgerArmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WgerArmsViewController.swift; sourceTree = "<group>"; };
+		F16DDAA820942815000BD86F /* WgerExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WgerExercise.swift; sourceTree = "<group>"; };
+		F16DDAAA20942C15000BD86F /* WgerArmExerciseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WgerArmExerciseTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +61,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F167AC212094054600D09FFF /* SwiftyJSON.framework in Frameworks */,
+				F167AC1F2094054100D09FFF /* Alamofire.framework in Frameworks */,
+				729214E9D2D05A7F5B4B95F7 /* Pods_Workout_Agenda.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0015BA191552FD2FCC8B4E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F167AC202094054600D09FFF /* SwiftyJSON.framework */,
+				F167AC1E2094054100D09FFF /* Alamofire.framework */,
+				264BD8857B00889F0CC15796 /* Pods_Workout_Agenda.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1686A1D7DCD76D7E1B8114 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8933747906C508DE360F7FE /* Pods-Workout Agenda.debug.xcconfig */,
+				C1022B7F1219D3FC5DB27DEB /* Pods-Workout Agenda.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F13A96792088E6DD0072A6D4 = {
 			isa = PBXGroup;
 			children = (
 				F13A96842088E6DD0072A6D4 /* Workout Agenda */,
 				F13A96832088E6DD0072A6D4 /* Products */,
+				CF1686A1D7DCD76D7E1B8114 /* Pods */,
+				B0015BA191552FD2FCC8B4E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,8 +111,20 @@
 			isa = PBXGroup;
 			children = (
 				F13A96852088E6DD0072A6D4 /* AppDelegate.swift */,
-				F13A96872088E6DD0072A6D4 /* ViewController.swift */,
+				F13A969D208906DA0072A6D4 /* ExerciseDetailViewController.swift */,
+				F13A96872088E6DD0072A6D4 /* ExercisesViewController.swift */,
+				F100E1C32090D692006E7D4F /* AgendaViewController.swift */,
+				F100E1C9209142E9006E7D4F /* AddAgendaItemViewController.swift */,
+				F13A96972088E7180072A6D4 /* Exercise.swift */,
+				F13A96992088E85F0072A6D4 /* AgendaItem.swift */,
 				F13A96892088E6DD0072A6D4 /* Main.storyboard */,
+				F16DDAA820942815000BD86F /* WgerExercise.swift */,
+				F16DDAA620942700000BD86F /* WgerArmsViewController.swift */,
+				F16DDAAA20942C15000BD86F /* WgerArmExerciseTableViewCell.swift */,
+				F100C6C12094CF320068F239 /* WgerAbsViewController.swift */,
+				F100C6C32094D0EE0068F239 /* WgerAbExerciseTableViewCell.swift */,
+				F100C6C72094FECB0068F239 /* WgerLegsViewController.swift */,
+				F100C6C52094FEA50068F239 /* WgerLegsExerciseTableViewCell.swift */,
 				F13A968C2088E6E10072A6D4 /* Assets.xcassets */,
 				F13A968E2088E6E10072A6D4 /* LaunchScreen.storyboard */,
 				F13A96912088E6E10072A6D4 /* Info.plist */,
@@ -71,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F13A96942088E6E10072A6D4 /* Build configuration list for PBXNativeTarget "Workout Agenda" */;
 			buildPhases = (
+				783041B9679D8E53F88DC544 /* [CP] Check Pods Manifest.lock */,
 				F13A967E2088E6DD0072A6D4 /* Sources */,
 				F13A967F2088E6DD0072A6D4 /* Frameworks */,
 				F13A96802088E6DD0072A6D4 /* Resources */,
+				F167BF1D64B617F59CE8D22E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +200,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		783041B9679D8E53F88DC544 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Workout Agenda-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F167BF1D64B617F59CE8D22E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Workout Agenda/Pods-Workout Agenda-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Workout Agenda/Pods-Workout Agenda-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F13A967E2088E6DD0072A6D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F13A96882088E6DD0072A6D4 /* ViewController.swift in Sources */,
+				F100C6C62094FEA50068F239 /* WgerLegsExerciseTableViewCell.swift in Sources */,
+				F13A96882088E6DD0072A6D4 /* ExercisesViewController.swift in Sources */,
 				F13A96862088E6DD0072A6D4 /* AppDelegate.swift in Sources */,
+				F100E1C42090D692006E7D4F /* AgendaViewController.swift in Sources */,
+				F100C6C82094FECB0068F239 /* WgerLegsViewController.swift in Sources */,
+				F16DDAA920942815000BD86F /* WgerExercise.swift in Sources */,
+				F13A969A2088E85F0072A6D4 /* AgendaItem.swift in Sources */,
+				F100E1CA209142E9006E7D4F /* AddAgendaItemViewController.swift in Sources */,
+				F16DDAAB20942C15000BD86F /* WgerArmExerciseTableViewCell.swift in Sources */,
+				F13A969E208906DA0072A6D4 /* ExerciseDetailViewController.swift in Sources */,
+				F100C6C22094CF320068F239 /* WgerAbsViewController.swift in Sources */,
+				F100C6C42094D0EE0068F239 /* WgerAbExerciseTableViewCell.swift in Sources */,
+				F16DDAA720942700000BD86F /* WgerArmsViewController.swift in Sources */,
+				F13A96982088E7180072A6D4 /* Exercise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +401,7 @@
 		};
 		F13A96952088E6E10072A6D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8933747906C508DE360F7FE /* Pods-Workout Agenda.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +420,7 @@
 		};
 		F13A96962088E6E10072A6D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1022B7F1219D3FC5DB27DEB /* Pods-Workout Agenda.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
